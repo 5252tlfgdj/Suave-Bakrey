@@ -1,0 +1,108 @@
+/* 서브페이지 공통 CSS */
+#main-sec{
+    width:100%;
+    height: auto;
+    background: url(../images/about_main.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+}
+.main-border{
+    width:50px;
+    height: 2px;
+    background:#fff;
+    margin:0 auto;
+}
+#main-sec .col-sm-12{
+    padding:10% 0;
+}
+
+
+/* 부트스트랩 고치기 */
+/* 쿠키 */
+@media (min-width:1200px){
+    .col-lg-3{
+        width:50%;
+    }
+}
+@media (max-width:767px){
+    .col-lg-3{
+        width:50%;
+    }
+}
+
+
+/* sec_product01 */
+.product01{
+    width:100%;
+    height: auto;
+    padding:5% 0 ;
+}
+.product01 .row{
+    /* border-radius:30px;
+    background:#fff; */
+    padding:2% 2% 4% 2%;
+}
+.product01 h2{
+    padding-bottom: 5%;
+}
+.product-img-area img{
+    width:100%;
+}
+.product01 .col-sm-6{
+    display:flex;
+    padding-left: 0;
+    padding-right:0;
+}
+@media(max-width:992px){
+    .product01>.container>.row>.col-md-6{
+        width:50%;
+        flex: 50%;
+    }
+}
+
+/* sec_product02 */
+.product02{
+    width:100%;
+    height: auto;
+    padding-bottom:5% ;
+}
+.cookie-img{
+    overflow: hidden;
+}
+.cookie-img img{
+    width:100%;
+}
+.cookie-img:hover .img-responsive{
+    transform: scale(1.2);
+}
+.img-responsive{
+    transition: all 0.3s;
+}
+.courses-txt p:first-child{
+    width: 70%;
+    justify-content: left;
+}
+.courses-txt p:last-child{
+    width: 30%;
+    justify-content: right;
+    text-align: right;
+}
+.product02 .row{
+    /* border-radius:30px;
+    background:#fff; */
+    padding:2% 2% 4% 2%;
+}
+
+.product02 .col-sm-6{
+    display:flex;
+    padding-left: 0;
+    padding-right:0;
+}
+@media(max-width:992px){
+    .product02>.container>.row>.col-md-6{
+        width:50%;
+        flex: 50%;
+    }
+}

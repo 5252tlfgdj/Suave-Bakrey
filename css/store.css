@@ -1,0 +1,148 @@
+#main-sec{
+    width:100%;
+    height: auto;
+    background: url(../images/about_main.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+}
+.main-border{
+    width:50px;
+    height: 2px;
+    background:#fff;
+    margin:0 auto;
+}
+#main-sec .col-sm-12{
+    padding:10% 0;
+}
+.store_02{
+    width:100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+.store_02 .col-sm-12{
+    padding:5% 0;
+}
+#map{
+    width:100%;
+    height: 500px;
+}
+
+.store_03{
+    width:100%;
+    height: auto;
+    background:#fff3e0;
+    padding:5% 0 ;
+}
+.store_03 .col-sm-12{
+    padding-bottom:5%;
+}
+.Nstore{
+    width:80%;
+    background:#fff;
+    margin:0 auto;
+    padding-top: 5%;
+}
+.Nstore p:last-child{
+    background:#a56500;
+    padding:3%;
+    color:#fff;
+    margin:0 auto;
+}
+
+
+.store_04{
+    width:100%;
+    height: auto;
+    padding:5% 0 ;
+}
+.store_04 h2{
+    padding-bottom:5%;
+}
+.store_04 table{
+    width:100%;
+    font-size: 18px;
+    text-align: center;
+}
+.menu-table01{
+    background: #a56500;
+    color:#fff;
+    /* border-top:2px solid #a56500;
+    border-bottom:1px solid #a56500; */
+}
+.menu-table01 td{
+    padding:12px 0;
+}
+.tr td:first-child{
+    width:25%;
+}
+.tr td:nth-child(2){
+    width:50%;
+}
+.tr td:last-child{
+    width:25%;
+}
+.menu-table td{
+    padding:8px 0;
+}
+.menu-table:nth-child(2n){
+    background:#fff3e0;
+}
+.menu-table:hover{
+    background:#edbd72;
+}
+#pagination a {
+    display:inline-block;
+    margin-right:5px;
+    cursor:pointer;
+}
+
+.pagination>li>a, .pagination>li>span{
+    color:#a56500;
+}
+.pagination>.active>a, 
+.pagination>.active>a:focus, 
+.pagination>.active>a:hover, 
+.pagination>.active>span, 
+.pagination>.active>span:focus, 
+.pagination>.active>span:hover{
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #a56500;
+    border-color: #a56500;
+}
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover{
+    z-index: 2;
+    color: #a56500;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.prev{
+    display: none;
+}
+.next{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 지도 */
+.customoverlay {position:relative;bottom:85px;border-radius:6px;border: 1px solid #ccc;border-bottom:2px solid #ddd;float:left;}
+        .customoverlay:nth-of-type(n) {border:0; box-shadow:0px 1px 2px #888;}
+        .customoverlay a {display:block;text-decoration:none;color:#000;text-align:center;border-radius:6px;font-size:14px;font-weight:bold;overflow:hidden;background: #69a32a;background: #69a32a url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;}
+        .customoverlay .title {display:block;text-align:center;background:#fff;margin-right:35px;padding:10px 15px;font-size:14px;font-weight:bold;}
+        .customoverlay:after {content:'';position:absolute;margin-left:-12px;left:50%;bottom:-12px;width:22px;height:12px;background:url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
